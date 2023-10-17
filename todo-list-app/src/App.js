@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import TaskInput from './components/TaskInput';
 import TaskList from './components/TaskList';
 import FilterTasks from './components/FilterTask';
+import './App.css';
 
 function App() {
   const [tasks, setTasks] = useState([]);
