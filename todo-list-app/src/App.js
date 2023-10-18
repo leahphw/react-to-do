@@ -41,10 +41,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Todo List</h1>
-      <TaskInput addTask={addTask} />
-      <FilterTasks setFilter={setFilter} />
-      <TaskList
+      <h1>Your To-do List</h1>
+      <TaskInput className="TaskInput" addTask={addTask} />
+      <FilterTasks className="FilterTasks" setFilter={setFilter} />
+      <TaskList className="TaskList"
         tasks={tasks}
         filter={filter}
         completeTask={completeTask}
