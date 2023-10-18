@@ -1,6 +1,6 @@
 # React Todo List
 
-![App Screenshot](screenshot.png)
+![App Screenshot](todo-list-app/src/app.png)
 
 A simple and vibrant To-do List application built using React. This application allows you to manage your tasks, mark them as completed, and delete them.
 
